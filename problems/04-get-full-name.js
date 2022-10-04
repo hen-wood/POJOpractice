@@ -11,8 +11,9 @@ getFullName(p2); // => 'Charlie Brown'
 ***********************************************************************/
 
 function getFullName(person) {
-  // Your code here
+  return Object.values(person)[0] + ' ' + Object.values(person)[1]
 }
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = getFullName;
